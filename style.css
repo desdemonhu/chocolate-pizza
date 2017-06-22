@@ -95,8 +95,14 @@ table {
 
 #article-recipe ul {
   display: inline-block;
-  margin-left: 20px;
+  margin-left: 60px;
+  margin-bottom: 85px;
+  margin-top: 36px;
   list-style-type: none;
+}
+
+#article-recipe li {
+  margin-top: 11px;
 }
 
 #author {
