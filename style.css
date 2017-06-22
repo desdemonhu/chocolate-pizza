@@ -1,0 +1,44 @@
+#wrapper {
+  position:relative;
+  left: 15%;
+  right: 15%;
+  width: 901px;
+}
+.header{
+  display: inline-block;
+  width: 100%;
+}
+
+.header-left{
+  display: inline;
+  float: left;
+}
+
+.header-left img{
+  display: inline;
+  float: left;
+  margin-right: 5px;
+}
+
+.cursive-text {
+  display: inline;
+}
+
+.social-media img {
+  display:inline;
+  float: right;
+}
+
+#article {
+  display: inline-block;
+}
+
+#article-recipe {
+  background-image: url('assets/list-bg.png');
+}
+
+#article-recipe ul {
+  display: inline-block;
+  margin-left: 20px;
+  list-style-type: none;
+}
