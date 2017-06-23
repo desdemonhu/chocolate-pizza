@@ -55,6 +55,15 @@ table {
   right: 15%;
   width: 901px;
 }
+
+.custom-hr {
+  background-color: grey;
+  height:10px;
+  margin: 20px 0px;
+  background: repeating-linear-gradient(45deg,
+   #FFFFFF , #B2B2B2  1px, transparent 1px, transparent 3px);
+}
+
 .header{
   display: inline-block;
   width: 100%;
@@ -87,6 +96,22 @@ table {
 
 #article {
   display: inline-block;
+}
+/*
+#article img{
+  display: inline;
+  float:right;
+}
+*/
+.little-print{
+  display: inline;
+  float:right;
+}
+
+#article span{
+  display: inline;
+  float:right;
+  margin-left: 4px;
 }
 
 .article-text {
@@ -157,9 +182,20 @@ input[type='checkbox']:checked + label{
 #share-recipe {
   display: inline-block;
   float: right;
+  height:40px;
+  width:150px;
+  background-color: rgb(197, 120, 23);
+  color: white;
+  text-transform: uppercase;
+  border: 0px;
 }
 
 #footer {
   margin-top: 100px;
   text-align: center;
+}
+
+.little-print{
+  text-transform: uppercase;
+
 }
