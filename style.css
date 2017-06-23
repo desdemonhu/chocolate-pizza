@@ -101,6 +101,14 @@ table {
   list-style-type: none;
 }
 
+li.right-column {
+  margin-left: 100px;
+}
+
+input[type='checkbox']:checked + label{
+  text-decoration: line-through;
+}
+
 #article-recipe li {
   margin-top: 11px;
 }
