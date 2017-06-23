@@ -51,9 +51,10 @@ table {
 
 #wrapper {
   position:relative;
-  left: 15%;
+  left: 20%;
   right: 15%;
   width: 901px;
+	margin-top: 20px;
 }
 
 .custom-hr {
@@ -61,7 +62,7 @@ table {
   height:10px;
   margin: 20px 0px;
   background: repeating-linear-gradient(45deg,
-   #FFFFFF , #B2B2B2  1px, transparent 1px, transparent 3px);
+   #FFFFFF , #929292  1px, transparent 2px, transparent 3px);
 }
 
 .header{
@@ -72,6 +73,7 @@ table {
 .header-left{
   display: inline;
   float: left;
+	width: 500px;
 }
 
 .header-left img{
@@ -82,6 +84,8 @@ table {
 
 .cursive-text {
   display: inline;
+	font-family: 'Yellowtail', cursive;
+	font-size: 35px;
 }
 
 .social-media img {
@@ -96,6 +100,7 @@ table {
 
 #article {
   display: inline-block;
+	margin-top: 40px;
 }
 /*
 #article img{
@@ -114,6 +119,16 @@ table {
   margin-left: 4px;
 }
 
+#article h1 {
+	font-family: 'Coda', cursive;
+	font-size: 40px;
+	font-weight: bolder;
+}
+
+#chocolate-pizza {
+	margin-top: 40px;
+}
+
 .article-text {
   margin: 20px 0px;
   text-indent: 32px;
@@ -122,10 +137,15 @@ table {
 .article-text p{
   margin: 30px 0px;
   font-size: 20px;
+	color: #767474;
 }
 
 #article-recipe {
   background-image: url('assets/list-bg.png');
+	font-family: 'Patrick Hand', cursive;
+	font-size: 20px;
+	font-weight: bold;
+	color: #6f6060;
 }
 
 #article-recipe ul {
@@ -145,7 +165,7 @@ input[type='checkbox']:checked + label{
 }
 
 #article-recipe li {
-  margin-top: 11px;
+  margin-top: 10px;
 }
 
 #author {
@@ -169,6 +189,8 @@ input[type='checkbox']:checked + label{
   display: block;
   margin-top: 20px;
   margin-left: 80px;
+	font-size: 20px;
+	font-weight: bold;
 }
 
 #author-text p{
@@ -193,9 +215,30 @@ input[type='checkbox']:checked + label{
 #footer {
   margin-top: 100px;
   text-align: center;
+	font-size: 14px;
+	color:grey;
 }
 
-.little-print{
-  text-transform: uppercase;
+.footer-line {
+	display: inline-block;
+	margin-bottom: 15px;
+	width: 425px;
+	height: 1px;
+	background-color: rgba(211,211,211,0.79);
+}
 
+#footer p {
+	margin: 30px;
+}
+
+.little-text{
+	font-size: 10px;
+	text-transform: uppercase;
+	color: lightgrey;
+}
+
+p.little-text {
+	font-size: 14px;
+	text-transform: uppercase;
+	color: lightgrey;
 }
